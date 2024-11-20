@@ -7,21 +7,21 @@ const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f4f8;
-    padding: 2rem;
+    padding: 1rem;
 `;
 
 const Title = styled.h1`
-    font-size: 2rem;
-    color: #00796b;
+    font-size: 1.5rem;
+    color: #333;
+    font-family: sans-serif;
 `;
 
 const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
 `;
 
 const StyledInput = styled.input`
@@ -29,27 +29,25 @@ const StyledInput = styled.input`
     font-size: 1rem;
     width: 100%;
     max-width: 300px;
-    border: 1px solid #b2dfdb;
+    border: 1px solid #ccc;
     border-radius: 4px;
+    font-family: sans-serif;
 `;
 
 const StyledButton = styled.button`
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     background-color: #00796b;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
-    &:hover {
-        background-color: #004d40;
-    }
 `;
 
 const ResultText = styled.p`
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
 `;
 
 const Home: NextPage = () => {
